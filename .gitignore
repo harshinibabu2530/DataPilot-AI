@@ -1,0 +1,57 @@
+# ==========================================
+# DataPilot AI — Root Git Ignore Configuration
+# ==========================================
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Python Backend Files
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+*.py[cod]
+*$py.class
+backend/.env
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/reports/*
+!backend/reports/.gitkeep
+.venv/
+venv/
+ENV/
+
+# Node.js Gateway Files
+backend-node/node_modules/
+backend-node/.env
+backend-node/npm-debug.log*
+backend-node/yarn-debug.log*
+backend-node/yarn-error.log*
+
+# Vite Frontend Files
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Scratch & Temporary Data Files
+scratch/*.csv
+scratch/*.xlsx
+scratch/*.xls
+scratch/*.pdf
